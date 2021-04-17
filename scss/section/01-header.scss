@@ -3,4 +3,23 @@
 /* Section-1 */
 /* --------------------------------------------- */
 
+.section-1 {
+    height: 100%;
+
+    margin-right: auto;
+    margin-left: auto;
+
+    padding-right: 8px;
+    padding-left: 8px;
+
+    display: grid;
+    justify-items: center;
+    gap: 10px;
+}
+
+.section-1__header {
+    text-align: center;
+    font-size: 14px;
+}
+
 /* --------------------------------------------- */
