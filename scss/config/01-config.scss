@@ -13,21 +13,25 @@ html {
 
 body {
     min-width: 320px;
+    min-height: 780px;
 
     margin: 0;
 
     padding: 0;
 
-    font-family: 'Roboto', Arial, sans-serif;
+    font-family: "Roboto", Arial, sans-serif;
     font-size: 14px;
     line-height: normal;
     font-weight: normal;
     font-style: normal;
-    
-    background-color: #E5E5E5;
+
+    background-color: #e5e5e5;
     background-position: top center;
-    background-repeat: no-repeat;  
-    
+    background-repeat: no-repeat;
+
+    background-image: url("../img/320.jpg");
+    opacity: 0.5;
+
     // background-image: url("../img/maket.jpg");
     // opacity: 0.5;
 }
