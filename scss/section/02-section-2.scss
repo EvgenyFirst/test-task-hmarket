@@ -8,8 +8,8 @@
     margin-right: 8px;
     margin-left: 8px;
 
-    display: flex;
-    justify-content: center;
+    display: grid;
+    justify-items: center;
 
     position: relative;
 
@@ -29,6 +29,15 @@
 
     box-shadow: 0px 2px 24px rgba(0, 0, 0, 0.04);
     border-radius: 8px;
+}
+
+.section-2__modal-x-container {
+    width: 28px;
+    height: 28px;
+
+    margin-top: 18.56px;
+    margin-left: auto;
+    margin-right: 13.56px;
 }
 
 .section-2__modal-x {
@@ -83,6 +92,31 @@
 
     &:hover {
         cursor: pointer;
+
+        width: 28px;
+        height: 28px;
+
+        margin-top: 1.56px;
+        margin-right: -0.44px;
+
+        position: relative;
+
+        border-radius: 8px;
+
+        background-color: #f5f4f2;
+
+        &::before,
+        &::after {
+            position: absolute;
+            top: 13px;
+            left: 5px;
+
+            background-color: #383736;
+        }
+    }
+
+    &:active {
+        background-color: #e7e4de;
     }
 }
 
@@ -93,14 +127,37 @@
 
     min-width: 268px;
 
+    margin-top: 18.56px;
+
     padding-right: 20.56px;
     padding-left: 20px;
+}
+
+.section-2__modal-header {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 28px;
+    color: #383736;
 }
 
 .section-2__modal-info {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+}
+
+.section-2__modal-header-add {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    color: #989691;
+}
+
+.section-2__modal-info-add {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    color: #383736;
 }
 
 .section-2__modal-add-info {
@@ -111,11 +168,53 @@
 .section-2__modal-ok {
     display: flex;
     align-items: center;
+    justify-content: center;
+
+    width: 184px;
+    min-height: 32px;
+
+    margin-bottom: 8px;
+
+    border-radius: 22px;
+
+    background-color: #f2faf0;
+}
+
+.section-2__modal-ok-img {
+    margin-right: 9.71px;
+}
+
+.section-2__modal-x-img {
+    margin-right: 10.76px;
 }
 
 .section-2__modal-x-info {
     display: flex;
     align-items: center;
+    justify-content: center;
+
+    width: 249px;
+    min-height: 32px;
+
+    margin-bottom: 20px;
+
+    border-radius: 22px;
+
+    background-color: #faf0f0;
+}
+
+.section-2__modal-watch {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+    color: #64b851;
+}
+
+.section-2__modal-another-result {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+    color: #eb4b51;
 }
 
 .section-2__modal-price {
@@ -129,8 +228,27 @@
     }
 }
 
-.section-2__modal-period {
-    display: flex;
+.section-2__modal-different {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #989691;
+}
+
+.section-2__modal-data {
+    color: #2794db;
+}
+
+.section-2__modal-sum {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 28px;
+    color: #383736;
+}
+
+.section-2__modal-difference {
+    font-weight: 500;
+    color: #eb4b51;
 }
 
 .section-2__modal-choose {
@@ -138,9 +256,26 @@
     align-items: center;
     justify-content: center;
 
-    margin-right: auto;
-    margin-left: auto;
+    min-width: 268px;
+    min-height: 44px;
+
     margin-bottom: 20px;
+
+    padding-top: 12px;
+    padding-right: 50px;
+    padding-bottom: 12px;
+    padding-left: 50px;
+
+    border: none;
+    border-radius: 6px;
+
+    background-color: #fac62d;
+
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    color: #383736;
+
     &::before {
         content: " ";
         display: block;
@@ -148,7 +283,19 @@
         width: 12.26px;
         height: 12.26px;
 
+        margin-right: 8.94px;
+
         background-image: url("../img/ico-key.svg");
+    }
+
+    &:hover {
+        cursor: pointer;
+
+        background-color: #f0b505;
+    }
+
+    &:active {
+        background-color: #e1ab08;
     }
 }
 
