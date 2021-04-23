@@ -29,7 +29,7 @@ body {
     background-position: top center;
     background-repeat: no-repeat;
 
-    // background-image: url("../img/920.jpg");
+    // background-image: url("../img/1280.jpg");
     // opacity: 0.5;
 
     // background-image: url("../img/maket.jpg");
@@ -37,6 +37,10 @@ body {
 
     @media (min-width: 768px) {
         min-height: 582px;
+    }
+    
+    @media (min-width: 1280px) {
+        min-height: 395px;
     }
 }
 
