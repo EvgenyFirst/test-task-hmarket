@@ -18,6 +18,11 @@
     @media (min-width: 768px) {
         margin-top: -23px;
     }
+
+    @media (min-width: 920px) {
+        margin-right: 28px;
+        margin-left: 29px;
+    }
 }
 
 .section-2__modal-window {
@@ -39,6 +44,10 @@
 
     @media (min-width: 768px) {
         min-height: 542px;
+    }
+
+    @media (min-width: 920px) {
+        min-height: 315px;
     }
 }
 
@@ -83,6 +92,10 @@
             top: 27px;
             right: 38px;
         }
+
+        @media (min-width: 920px) {
+            right: 19px;
+        }
     }
 
     &::before {
@@ -107,6 +120,10 @@
             top: 27px;
             right: 38px;
         }
+
+        @media (min-width: 920px) {
+            right: 19px;
+        }
     }
 
     &:hover {
@@ -127,6 +144,11 @@
         @media (min-width: 768px) {
             margin-top: -3.44px;
             margin-right: 21.56px;
+        }
+
+        @media (min-width: 920px) {
+            margin-top: -4.44px;
+            margin-right: 1.56px;
         }
 
         &::before,
@@ -162,6 +184,10 @@
         margin-left: 29px;
         margin-right: 77px;
     }
+
+    @media (min-width: 920px) {
+        flex-wrap: nowrap;
+    }
 }
 
 .section-2__modal-objects-img {
@@ -172,6 +198,11 @@
 
         margin-top: 30px;
         margin-left: -11px;
+    }
+
+    @media (min-width: 920px) {
+        margin-top: -86px;
+        margin-left: 19px;
     }
 }
 
@@ -185,6 +216,11 @@
 
         margin-top: -187px;
         margin-left: 205px;
+    }
+
+    @media (min-width: 920px) {
+        margin-top: -161px;
+        margin-left: 77px;
     }
 }
 
@@ -212,6 +248,10 @@
         width: 57%;
 
         margin-top: -21px;
+    }
+
+    @media (min-width: 920px) {
+        width: 49%;
     }
 }
 
@@ -328,6 +368,10 @@
     @media (min-width: 768px) {
         flex-direction: row;
     }
+
+    @media (min-width: 920px) {
+        flex-direction: column;
+    }
 }
 
 .section-2__modal-ok {
@@ -347,6 +391,10 @@
 
     @media (min-width: 768px) {
         margin-bottom: 0;
+    }
+
+    @media (min-width: 920px) {
+        margin-left: 2px;
     }
 }
 
@@ -381,6 +429,11 @@
         margin-bottom: 0;
         margin-left: 13px;
     }
+
+    @media (min-width: 920px) {
+        margin-top: 8px;
+        margin-left: -1px;
+    }
 }
 
 .section-2__modal-watch {
@@ -407,6 +460,20 @@
 }
 
 .section-2__modal-price {
+    @media (min-width: 768px) {
+        margin-top: 23px;
+        margin-left: -197px;
+    }
+
+    @media (min-width: 920px) {
+        position: relative;
+        
+        min-width: 232px;
+
+        margin-top: -291px;
+        margin-left: 334px;
+    }
+
     &::before {
         content: " ";
         display: block;
@@ -414,11 +481,16 @@
         width: 100%;
 
         border-top: 1px solid #f0eeeb;
-    }
 
-    @media (min-width: 768px) {
-        margin-top: 23px;
-        margin-left: -197px;
+        @media (min-width: 920px) {
+            border-top: none;
+            border-left: 1px solid #f0eeeb;
+
+            position: absolute;
+            left: -36px;
+
+            min-height: 268px;
+        }
     }
 }
 
@@ -526,6 +598,15 @@
     @media (min-width: 768px) {
         min-width: 108%;
         margin-top: 11px;
+    }
+
+    @media (min-width: 920px) {
+        min-width: 37.5%;
+
+        margin-top: 241px;
+        margin-left: -200px;
+
+        z-index: 1;
     }
 }
 
