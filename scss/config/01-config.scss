@@ -29,11 +29,15 @@ body {
     background-position: top center;
     background-repeat: no-repeat;
 
-    //background-image: url("../img/320.jpg");
-    //opacity: 0.5;
+    // background-image: url("../img/768.jpg");
+    // opacity: 0.5;
 
     // background-image: url("../img/maket.jpg");
     // opacity: 0.5;
+
+    @media (min-width: 768px) {
+        min-height: 582px;
+    }
 }
 
 img {
